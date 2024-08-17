@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Xamarin\\Name\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80598169-FAC0-4594-B6B0-4C1275C96D24}|Name\\Name.csproj|d:\\xamarin\\name\\name\\views\\home\\vhheader.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{80598169-FAC0-4594-B6B0-4C1275C96D24}|Name\\Name.csproj|solutionrelative:name\\views\\home\\vhheader.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80598169-FAC0-4594-B6B0-4C1275C96D24}|Name\\Name.csproj|d:\\xamarin\\name\\name\\views\\home\\vhbody.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{80598169-FAC0-4594-B6B0-4C1275C96D24}|Name\\Name.csproj|solutionrelative:name\\views\\home\\vhbody.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80598169-FAC0-4594-B6B0-4C1275C96D24}|Name\\Name.csproj|d:\\xamarin\\name\\name\\views\\home\\vhprincipal.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{80598169-FAC0-4594-B6B0-4C1275C96D24}|Name\\Name.csproj|solutionrelative:name\\views\\home\\vhprincipal.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80598169-FAC0-4594-B6B0-4C1275C96D24}|Name\\Name.csproj|d:\\xamarin\\name\\name\\views\\home\\vhbody.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80598169-FAC0-4594-B6B0-4C1275C96D24}|Name\\Name.csproj|solutionrelative:name\\views\\home\\vhbody.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80598169-FAC0-4594-B6B0-4C1275C96D24}|Name\\Name.csproj|d:\\xamarin\\name\\name\\views\\home\\vhfooter.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80598169-FAC0-4594-B6B0-4C1275C96D24}|Name\\Name.csproj|solutionrelative:name\\views\\home\\vhfooter.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80598169-FAC0-4594-B6B0-4C1275C96D24}|Name\\Name.csproj|d:\\xamarin\\name\\name\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{80598169-FAC0-4594-B6B0-4C1275C96D24}|Name\\Name.csproj|solutionrelative:name\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VHPrincipal.xaml",
+              "DocumentMoniker": "D:\\Xamarin\\Name\\Name\\Views\\Home\\VHPrincipal.xaml",
+              "RelativeDocumentMoniker": "Name\\Views\\Home\\VHPrincipal.xaml",
+              "ToolTip": "D:\\Xamarin\\Name\\Name\\Views\\Home\\VHPrincipal.xaml",
+              "RelativeToolTip": "Name\\Views\\Home\\VHPrincipal.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-17T13:50:29.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VHHeader.xaml",
+              "DocumentMoniker": "D:\\Xamarin\\Name\\Name\\Views\\Home\\VHHeader.xaml",
+              "RelativeDocumentMoniker": "Name\\Views\\Home\\VHHeader.xaml",
+              "ToolTip": "D:\\Xamarin\\Name\\Name\\Views\\Home\\VHHeader.xaml",
+              "RelativeToolTip": "Name\\Views\\Home\\VHHeader.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-17T15:27:53.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VHBody.xaml",
+              "DocumentMoniker": "D:\\Xamarin\\Name\\Name\\Views\\Home\\VHBody.xaml",
+              "RelativeDocumentMoniker": "Name\\Views\\Home\\VHBody.xaml",
+              "ToolTip": "D:\\Xamarin\\Name\\Name\\Views\\Home\\VHBody.xaml",
+              "RelativeToolTip": "Name\\Views\\Home\\VHBody.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-17T15:33:14.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VHFooter.xaml.cs",
+              "DocumentMoniker": "D:\\Xamarin\\Name\\Name\\Views\\Home\\VHFooter.xaml.cs",
+              "RelativeDocumentMoniker": "Name\\Views\\Home\\VHFooter.xaml.cs",
+              "ToolTip": "D:\\Xamarin\\Name\\Name\\Views\\Home\\VHFooter.xaml.cs",
+              "RelativeToolTip": "Name\\Views\\Home\\VHFooter.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T15:36:47.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Xamarin\\Name\\Name\\App.xaml",
+              "RelativeDocumentMoniker": "Name\\App.xaml",
+              "ToolTip": "D:\\Xamarin\\Name\\Name\\App.xaml",
+              "RelativeToolTip": "Name\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-17T17:42:11.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VHBody.xaml.cs",
+              "DocumentMoniker": "D:\\Xamarin\\Name\\Name\\Views\\Home\\VHBody.xaml.cs",
+              "RelativeDocumentMoniker": "Name\\Views\\Home\\VHBody.xaml.cs",
+              "ToolTip": "D:\\Xamarin\\Name\\Name\\Views\\Home\\VHBody.xaml.cs",
+              "RelativeToolTip": "Name\\Views\\Home\\VHBody.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T18:07:15.547Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

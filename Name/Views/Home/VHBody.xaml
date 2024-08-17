@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Name.Views.Home.VHBody">
+  <ContentView.Content>
+      <StackLayout>
+            <Frame Margin="50,0,50,0" CornerRadius="30">
+                <StackLayout>
+                    <Label Text="USUARIO:"
+                           FontSize="15"
+                           FontAttributes="Bold"
+                           TextColor="Maroon"/>
+                    <Entry Placeholder="Ingresar usuario"
+                           Margin="20,0,20,10"
+                           x:Name="txt_usuario"/>
+                    <Label Text="CONTRASEÑA:"
+                           FontSize="15"
+                           FontAttributes="Bold"
+                           TextColor="Maroon"/>
+                    <Entry Placeholder="Ingresar contraseña"
+                           Margin="20,0,20,20"
+                           x:Name="txt_contrasenia"/>
+                    
+                    <Button x:Name="btn_iniciar_sesion" Clicked="btn_iniciar_sesion_Clicked"
+                            Text="Iniciar Sesión"
+                            Style="{StaticResource btn-maroon}"/>
+                    <Button x:Name="btn_registrar" Clicked="btn_registrar_Clicked" 
+                            Text="REGISTARSE" 
+                            Style="{StaticResource btn-maroon}"/>
+
+                    <Label Text="" 
+                           TextColor="{StaticResource PKColor}"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           x:Name="lblResultado"/>
+
+
+                </StackLayout>
+                
+            </Frame>
+            <Label  Text="Olvido su contraseña, JAJAJAJA, que chiste"
+            HorizontalOptions="Center"
+            TextColor="White"
+            FontAttributes="Bold"
+                    FontSize="12"/>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

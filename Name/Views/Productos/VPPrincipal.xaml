@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Name.Views.Productos.VPPrincipal"
+             Title="Productos">
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="{StaticResource PKColor}">
+            <Frame CornerRadius="50" Padding="5" Margin="30,20" HasShadow="False">
+                <StackLayout >
+                    <Entry Placeholder="Buscar"/>
+                </StackLayout>
+            </Frame>
+            <Grid ColumnDefinitions="*,*,*">
+                <Button Grid.Column="0"
+                        Text="Hotel"
+                        BackgroundColor="#37B7C3"
+                        CornerRadius="50"
+                        Margin="10,20"
+                       />
+                <Button Grid.Column="1"
+                        Text="Hotel"
+                        BackgroundColor="#37B7C3"
+                        CornerRadius="50"
+                        Margin="10,20"
+                       />
+                <Button Grid.Column="2"
+                        Text="Hotel"
+                        BackgroundColor="#37B7C3"
+                        CornerRadius="50"
+                        Margin="10,20"
+                       />   
+            </Grid>
+            <Frame>
+                <Image Source="https://c4.wallpaperflare.com/wallpaper/1000/732/59/spring-8k-uhd-8k-asia-wallpaper-preview.jpg"/>
+            </Frame>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

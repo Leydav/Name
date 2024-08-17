@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Name.Views.Home.VHPrincipal"
+             BackgroundImageSource="https://images.pexels.com/photos/1474157/pexels-photo-1474157.jpeg"
+             xmlns:Home="clr-namespace:Name.Views.Home"> 
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Home:VHHeader Padding="0,60,0,10"/>
+            <Home:VHBody VerticalOptions="EndAndExpand"/>
+            <!--<Home:VHFooter VerticalOptions="EndAndExpand"/>-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
