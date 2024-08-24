@@ -7,8 +7,8 @@
     
     <ContentPage.Content>
         <StackLayout>
-            <Home:VHHeader Padding="0,60,0,10"/>
-            <Home:VHBody VerticalOptions="EndAndExpand"/>
+            <Home:VHHeader Margin="20,50,20,125"/>
+            <Home:VHBody VerticalOptions="Center"/>
             <!--<Home:VHFooter VerticalOptions="EndAndExpand"/>-->
         </StackLayout>
     </ContentPage.Content>

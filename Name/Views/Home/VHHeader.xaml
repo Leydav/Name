@@ -4,12 +4,15 @@
              x:Class="Name.Views.Home.VHHeader">
     <ContentView.Content>
         <StackLayout>
-            <Label  Text="COMPRAVENT"
-            HorizontalOptions="Center" 
-            FontAttributes="Bold"
-            FontSize="50"
-            TextColor="WhiteSmoke"
-            FontFamily="Robot"/>
+            <Frame Padding="0" Margin="0" BackgroundColor="Transparent">
+                <Label  Text="COMPRAVENT"
+                    HorizontalOptions="Center" 
+                    FontAttributes="Bold"
+                    FontSize="50"
+                    TextColor="Red"
+                    FontFamily="Robot"/>
+            </Frame>
+            
             <!--<Label  Text="SIUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU" 
             HorizontalTextAlignment="Center"
             VerticalOptions="Center" 

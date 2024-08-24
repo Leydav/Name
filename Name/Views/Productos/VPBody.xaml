@@ -1,10 +1,122 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Name.Views.Productos.VPBody">
-  <ContentView.Content>
-      <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
-      </StackLayout>
-  </ContentView.Content>
+             x:Class="Name.Views.Productos.VPBody"
+             xmlns:Lista="clr-namespace:Name.ViewModel">
+
+    <ContentView.BindingContext>
+        <Lista:VMProductos/>
+    </ContentView.BindingContext>
+
+    <ContentView.Content>
+        <StackLayout>
+            <Frame CornerRadius="20" Padding="0" Margin="35,0">
+                <Image HeightRequest="100" Source="https://img.freepik.com/vector-premium/plantilla-banner-editable-catalogo-publicidad-productos-supermercado_606364-1103.jpg"/>
+            </Frame>
+
+            <!--<Grid ColumnDefinitions="*,*,*">
+    <Button Grid.Column="0"
+            Text="Hotel"
+            BackgroundColor="#37B7C3"
+            CornerRadius="50"
+            Margin="10,20"
+           />
+    <Button Grid.Column="1"
+            Text="Hotel"
+            BackgroundColor="#37B7C3"
+            CornerRadius="50"
+            Margin="10,20"
+           />
+    <Button Grid.Column="2"
+            Text="Hotel"
+            BackgroundColor="#37B7C3"
+            CornerRadius="50"
+            Margin="10,20"
+           />   
+</Grid>-->
+            <ScrollView Orientation="Vertical">
+                <StackLayout Margin="30,10">
+                    <!--<Button Margin="100,0" TextColor="White" CornerRadius="50" BackgroundColor="Green">
+                <Button.ImageSource>
+                 <FontImageSource Color="White" FontFamily="{StaticResource FontAwesomeSolid}" Glyph="&#xf002;"/>
+                </Button.ImageSource>
+                <Button.Text>
+                    Buscar
+                </Button.Text>
+                 </Button>-->
+
+                    <!--*************************************BEBIDAS************************************************-->
+                    <Frame Margin="0,10">
+                        <Label Text="BEBIDAS;" TextColor="Maroon" FontFamily="{StaticResource FontAwesomeSolid}"/>
+                    </Frame>
+
+                    <Frame Padding="0">
+                        <ScrollView Orientation="Horizontal">
+                            <StackLayout Orientation="Horizontal">
+                                <Image WidthRequest="135" HeightRequest="150" Aspect="AspectFill" Source="https://img.freepik.com/fotos-premium/lata-roja-coca-cola-sienta-superficie-blanca_979014-7782.jpg"/>
+                                <Image WidthRequest="135" HeightRequest="150" Aspect="AspectFill" Source="https://i.pinimg.com/originals/f4/5b/d2/f45bd2f4825688f98d4a1d9214b65aec.png"/>
+                                <Image WidthRequest="135" HeightRequest="150" Aspect="AspectFill" Source="https://img.freepik.com/fotos-premium/lata-roja-coca-cola-sienta-superficie-blanca_979014-7782.jpg"/>
+                                <Image WidthRequest="135" HeightRequest="150" Aspect="AspectFill" Source="https://i.pinimg.com/originals/f4/5b/d2/f45bd2f4825688f98d4a1d9214b65aec.png"/>
+                                <Image WidthRequest="135" HeightRequest="150" Aspect="AspectFill" Source="https://img.freepik.com/fotos-premium/lata-roja-coca-cola-sienta-superficie-blanca_979014-7782.jpg"/>
+                                <Image WidthRequest="135" HeightRequest="150" Aspect="AspectFill" Source="https://i.pinimg.com/originals/f4/5b/d2/f45bd2f4825688f98d4a1d9214b65aec.png"/>
+                            </StackLayout>
+                        </ScrollView>
+                    </Frame>
+
+                    <Frame Margin="0,10">
+                        <Label Text="EMBUTIDOS;" TextColor="Maroon" FontFamily="{StaticResource FontAwesomeSolid}"/>
+                    </Frame>
+
+                    <Frame Padding="0">
+                        <ScrollView Orientation="Horizontal">
+                            <StackLayout Orientation="Horizontal">
+                                <Image WidthRequest="135" HeightRequest="150" Aspect="AspectFill" Source="https://img.freepik.com/fotos-premium/lata-roja-coca-cola-sienta-superficie-blanca_979014-7782.jpg"/>
+                                <Image WidthRequest="135" HeightRequest="150" Aspect="AspectFill" Source="https://i.pinimg.com/originals/f4/5b/d2/f45bd2f4825688f98d4a1d9214b65aec.png"/>
+                                <Image WidthRequest="135" HeightRequest="150" Aspect="AspectFill" Source="https://img.freepik.com/fotos-premium/lata-roja-coca-cola-sienta-superficie-blanca_979014-7782.jpg"/>
+                                <Image WidthRequest="135" HeightRequest="150" Aspect="AspectFill" Source="https://i.pinimg.com/originals/f4/5b/d2/f45bd2f4825688f98d4a1d9214b65aec.png"/>
+                                <Image WidthRequest="135" HeightRequest="150" Aspect="AspectFill" Source="https://img.freepik.com/fotos-premium/lata-roja-coca-cola-sienta-superficie-blanca_979014-7782.jpg"/>
+                                <Image WidthRequest="135" HeightRequest="150" Aspect="AspectFill" Source="https://i.pinimg.com/originals/f4/5b/d2/f45bd2f4825688f98d4a1d9214b65aec.png"/>
+                            </StackLayout>
+                        </ScrollView>
+                    </Frame>
+
+                    <Frame Margin="0,10">
+                        <Label Text="frutas;" TextColor="Maroon" FontFamily="{StaticResource FontAwesomeSolid}"/>
+                    </Frame>
+
+                    <Frame Padding="0">
+                        <ScrollView Orientation="Horizontal">
+                            <StackLayout Orientation="Horizontal">
+                                <Image WidthRequest="135" HeightRequest="150" Aspect="AspectFill" Source="https://img.freepik.com/fotos-premium/lata-roja-coca-cola-sienta-superficie-blanca_979014-7782.jpg"/>
+                                <Image WidthRequest="135" HeightRequest="150" Aspect="AspectFill" Source="https://i.pinimg.com/originals/f4/5b/d2/f45bd2f4825688f98d4a1d9214b65aec.png"/>
+                                <Image WidthRequest="135" HeightRequest="150" Aspect="AspectFill" Source="https://img.freepik.com/fotos-premium/lata-roja-coca-cola-sienta-superficie-blanca_979014-7782.jpg"/>
+                                <Image WidthRequest="135" HeightRequest="150" Aspect="AspectFill" Source="https://i.pinimg.com/originals/f4/5b/d2/f45bd2f4825688f98d4a1d9214b65aec.png"/>
+                                <Image WidthRequest="135" HeightRequest="150" Aspect="AspectFill" Source="https://img.freepik.com/fotos-premium/lata-roja-coca-cola-sienta-superficie-blanca_979014-7782.jpg"/>
+                                <Image WidthRequest="135" HeightRequest="150" Aspect="AspectFill" Source="https://i.pinimg.com/originals/f4/5b/d2/f45bd2f4825688f98d4a1d9214b65aec.png"/>
+                            </StackLayout>
+                        </ScrollView>
+                    </Frame>
+
+
+                    <!--<CollectionView ItemsSource="{Binding MisProductos}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout>
+                                <Label Text="{Binding Nombre}"/>
+                                <Image Source="{Binding Foto}"/>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                <ListView ItemsSource="{Binding MisProdcutos}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding Nombre}" Detail="{Binding Foto}" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>-->
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentView.Content>
 </ContentView>

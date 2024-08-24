@@ -2,9 +2,33 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Name.Views.Productos.VPFooter">
-  <ContentView.Content>
-      <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
-      </StackLayout>
-  </ContentView.Content>
+    <ContentView.Content>
+        <StackLayout BackgroundColor="Transparent" Padding="0" Margin="0,0,0,10">
+
+
+            <Frame Margin="50,0" BackgroundColor="Black" CornerRadius="50">
+                <Grid ColumnSpacing="2">
+                    <Button CornerRadius="20" 
+                            Grid.Column="1" Text="HOME" 
+                            BackgroundColor="Turquoise" 
+                            FontSize="10"
+                            Margin="10,0"
+                            FontAttributes="Bold"/>
+                    <Button CornerRadius="20" 
+                            Grid.Column="0" Text="CARRO" 
+                            BackgroundColor="White" 
+                            FontSize="10"
+                            Margin="10,0"/>
+                    <Button CornerRadius="20" 
+                            Grid.Column="2" Text="User" 
+                            BackgroundColor="White" 
+                            FontSize="10"
+                            Margin="10,0"/>
+                </Grid>
+            </Frame>
+
+
+
+        </StackLayout>
+    </ContentView.Content>
 </ContentView>

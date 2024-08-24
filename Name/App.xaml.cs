@@ -13,7 +13,7 @@ namespace Name
             InitializeComponent();
 
             //MainPage = new NavigationPage(new VHPrincipal());
-            MainPage = new VHPrincipal();
+            MainPage = new VPPrincipal();
         }
 
         protected override void OnStart()

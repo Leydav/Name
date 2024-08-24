@@ -4,7 +4,7 @@
              x:Class="Name.Views.Productos.VPHeader">
   <ContentView.Content>
       <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
-      </StackLayout>
+            <SearchBar Placeholder="Buscar"/>
+        </StackLayout>
   </ContentView.Content>
 </ContentView>

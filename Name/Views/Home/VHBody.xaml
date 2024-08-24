@@ -4,8 +4,8 @@
              x:Class="Name.Views.Home.VHBody">
   <ContentView.Content>
       <StackLayout>
-            <Frame Margin="50,0,50,0" CornerRadius="30">
-                <StackLayout>
+            <Frame Margin="50,0,50,0" CornerRadius="30" Padding="0" BackgroundColor="Transparent">
+                <StackLayout BackgroundColor="White" Padding="20">
                     <Label Text="USUARIO:"
                            FontSize="15"
                            FontAttributes="Bold"
@@ -29,7 +29,6 @@
                             Style="{StaticResource btn-maroon}"/>
 
                     <Label Text="" 
-                           TextColor="{StaticResource PKColor}"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"
                            x:Name="lblResultado"/>

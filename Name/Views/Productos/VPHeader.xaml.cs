@@ -16,5 +16,6 @@ namespace Name.Views.Productos
 		{
 			InitializeComponent ();
 		}
-	}
+
+    }
 }
